@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    color: yellow;
+    background-color: black;
+}
+
+#bg {
+    height: 25vh;
+    background-image: url(../pics/back.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 52vh;
+    background-position: center;
+}
+
+.event-img {
+    height: 20vh;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 25em;
+    gap: 1em;
+}
+
+.rad {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+}
+
+.radContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg-nav {
+    background-color: rgb(20, 20, 20);
+}
+
+.nav-link {
+    color: yellow !important;
+}
+
+.active {
+    color: red !important;
+}
+
+.table a:link {
+    color: #0d6efd;
+}
+
+.table a:visited {
+    color: red;
+}
+
+th, td, details, summary {
+    color: yellow;
+}
+
+#normal {
+    display: none;
+}

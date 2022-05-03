@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Darts szabályzat - Istók István weblapja</title>
+  </head>
+  <body>
+    <header>
+      <div id="bg"></div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">A sportról</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Események</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kapcsolat</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-light" id="week" onclick="weak()">Gyengén látóknak</button>
+          <button type="button" class="btn btn-light" id="normal" onclick="normal()">Normál nézet</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="text-center">Darts szabályok</h1>
+      <br />
+      <section class="container">
+        <a href="./pics/arrows.png" target="_blank"
+          ><img
+            class="float-end"
+            src="./pics/arrows.png"
+            alt="Steel vs Soft Darts nyíl"
+            title="Steel vs Soft Darts nyíl"
+        /></a>
+        <p>
+          A darts-nak két fajtája van: steel darts, soft darts. Ezeket a nyilak
+          hegyéről nevezték el.
+        </p>
+        <p>
+          A játék célja a versenyszabályban meghatározott számú leget nyerni.
+        </p>
+        <p>
+          A dartsban legeket, és szetteket kell nyerni. A legtöbb versenyen egy
+          nyert leg automatikusan egy megnyert szettnek számít, a
+          világbajnokságokon viszont három leg után nyer a versenyző egy
+          szettet. Az előre meghatározott számú szettet nyerő játékos nyeri a
+          mérkőzést.
+        </p>
+        <p>
+          Egy leg az 501 pontról indul és a játékos által dobott pontot mindig
+          kivonják a maradék pontjaiból.
+        </p>
+        <p>
+          A játékosok felváltva dobnak körönként 3-3 nyilat. A dobás értékét a
+          nyíl által eltalált szektor száma adja meg.
+        </p>
+        <a href="./pics/places.png" target="_blank"
+          ><img
+            class="float-end"
+            src="./pics/places.png"
+            alt="Dobás szemléltetése"
+            title="Dobás szemléltetése"
+        /></a>
+        <p>A táblától 237 cm-re kell állnia a dobónak.</p>
+        <p>
+          A tábla középpontjának magassága a talajtól mérve 173 cm (egy hat láb,
+          vagy 183 cm magas ember szemmagassága).
+        </p>
+        <p>Dobásnál mindkét lábnak a dobóvonal mögött kell lennie.</p>
+        <p>
+          Az eldobott nyilat akkor sem lehet újra eldobni, ha az nem érte a
+          táblát.
+        </p>
+        <p>Az elejtett nyílért a dobóvonalon belülre is be lehet lépni.</p>
+        <p>
+          Aki először éri el a 0 pontot úgy, hogy az utolsó dobás dupla szektort
+          talál, megnyerte a leget.
+        </p>
+        <p>
+          Steel játékban csak a táblából a játékos által kivett nyilak
+          pontértéke számít.
+        </p>
+        <p>
+          Soft játéknál 'amit a gép megad' elv érvényesül. (A Magyar Darts
+          Szövetség szabályzata alapján ez alól kivételt képez a kiszálló
+          szektorra dobott utolsó nyíl, abban az esetben ha az bent áll a
+          táblában, de a gép mégis tévesen számolta.)
+        </p>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
