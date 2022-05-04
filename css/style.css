@@ -50,3 +50,7 @@ body {
 #normal {
     display: none;
 }
+
+aside {
+    margin-bottom: 2vh;
+}

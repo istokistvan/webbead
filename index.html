@@ -40,8 +40,22 @@
               </li>
             </ul>
           </div>
-          <button type="button" class="btn btn-light" id="week" onclick="weak()">Gyengén látóknak</button>
-          <button type="button" class="btn btn-light" id="normal" onclick="normal()">Normál nézet</button>
+          <button
+            type="button"
+            class="btn btn-light"
+            id="week"
+            onclick="weak()"
+          >
+            Gyengén látóknak
+          </button>
+          <button
+            type="button"
+            class="btn btn-light"
+            id="normal"
+            onclick="normal()"
+          >
+            Normál nézet
+          </button>
         </div>
       </nav>
     </header>
@@ -49,68 +63,88 @@
     <main>
       <h1 class="text-center">Darts szabályok</h1>
       <br />
-      <section class="container">
-        <a href="./pics/arrows.png" target="_blank"
-          ><img
-            class="float-end"
-            src="./pics/arrows.png"
-            alt="Steel vs Soft Darts nyíl"
-            title="Steel vs Soft Darts nyíl"
-        /></a>
-        <p>
-          A darts-nak két fajtája van: steel darts, soft darts. Ezeket a nyilak
-          hegyéről nevezték el.
-        </p>
-        <p>
-          A játék célja a versenyszabályban meghatározott számú leget nyerni.
-        </p>
-        <p>
-          A dartsban legeket, és szetteket kell nyerni. A legtöbb versenyen egy
-          nyert leg automatikusan egy megnyert szettnek számít, a
-          világbajnokságokon viszont három leg után nyer a versenyző egy
-          szettet. Az előre meghatározott számú szettet nyerő játékos nyeri a
-          mérkőzést.
-        </p>
-        <p>
-          Egy leg az 501 pontról indul és a játékos által dobott pontot mindig
-          kivonják a maradék pontjaiból.
-        </p>
-        <p>
-          A játékosok felváltva dobnak körönként 3-3 nyilat. A dobás értékét a
-          nyíl által eltalált szektor száma adja meg.
-        </p>
-        <a href="./pics/places.png" target="_blank"
-          ><img
-            class="float-end"
-            src="./pics/places.png"
-            alt="Dobás szemléltetése"
-            title="Dobás szemléltetése"
-        /></a>
-        <p>A táblától 237 cm-re kell állnia a dobónak.</p>
-        <p>
-          A tábla középpontjának magassága a talajtól mérve 173 cm (egy hat láb,
-          vagy 183 cm magas ember szemmagassága).
-        </p>
-        <p>Dobásnál mindkét lábnak a dobóvonal mögött kell lennie.</p>
-        <p>
-          Az eldobott nyilat akkor sem lehet újra eldobni, ha az nem érte a
-          táblát.
-        </p>
-        <p>Az elejtett nyílért a dobóvonalon belülre is be lehet lépni.</p>
-        <p>
-          Aki először éri el a 0 pontot úgy, hogy az utolsó dobás dupla szektort
-          talál, megnyerte a leget.
-        </p>
-        <p>
-          Steel játékban csak a táblából a játékos által kivett nyilak
-          pontértéke számít.
-        </p>
-        <p>
-          Soft játéknál 'amit a gép megad' elv érvényesül. (A Magyar Darts
-          Szövetség szabályzata alapján ez alól kivételt képez a kiszálló
-          szektorra dobott utolsó nyíl, abban az esetben ha az bent áll a
-          táblában, de a gép mégis tévesen számolta.)
-        </p>
+      <section class="container row">
+        
+        <aside class="col-md-6">
+          <h2>Játék típusai</h2>
+          <article>
+            <a href="./pics/arrows.png" target="_blank"
+          ><figure>
+            <img
+              class="float-end"
+              src="./pics/arrows.png"
+              alt="Steel vs Soft Darts nyíl"
+              title="Steel vs Soft Darts nyíl"
+            /></figure
+        ></a>
+            A darts-nak két fajtája van: <b>steel darts, soft darts</b>. Ezeket a
+            <b>nyilak hegyéről</b> nevezték el.
+          </article>
+          <article>
+            Steel játékban csak a táblából a játékos által kivett nyilak
+            pontértéke számít.
+          </article>
+          <article>
+            Soft játéknál 'amit a gép megad' elv érvényesül. (A Magyar Darts
+            Szövetség szabályzata alapján ez alól kivételt képez a kiszálló
+            szektorra dobott utolsó nyíl, abban az esetben ha az bent áll a
+            táblában, de a gép mégis tévesen számolta.)
+          </article>
+        </aside>
+
+        <aside class="col-md-6">
+          <h2>Játék menete</h2>
+          <article>
+            A dartsban legeket, és szetteket kell nyerni. A legtöbb versenyen
+            egy nyert leg automatikusan egy megnyert szettnek számít, a
+            világbajnokságokon viszont három leg után nyer a versenyző egy
+            szettet. Az előre meghatározott számú szettet nyerő játékos nyeri a
+            mérkőzést.
+          </article>
+          <article>
+            A játék célja a versenyszabályban meghatározott számú leget nyerni.
+          </article>
+          <article>
+            Egy leg az 501 pontról indul és a játékos által dobott pontot mindig
+            kivonják a maradék pontjaiból.
+          </article>
+        </aside>
+
+        <aside>
+          <h2>Dobás</h2>
+          <article>
+            A játékosok felváltva dobnak körönként 3-3 nyilat. A dobás értékét a
+            nyíl által eltalált szektor száma adja meg.
+          </article>
+          <a href="./pics/places.png" target="_blank"
+            ><figure>
+              <img
+                class="float-end"
+                src="./pics/places.png"
+                alt="Dobás szemléltetése"
+                title="Dobás szemléltetése"
+              /></figure
+          ></a>
+          <article>A táblától 237 cm-re kell állnia a dobónak.</article>
+          <article>
+            A tábla középpontjának magassága a talajtól mérve 173 cm (egy hat
+            láb, vagy 183 cm magas ember szemmagassága).
+          </article>
+          <article>
+            Dobásnál mindkét lábnak a dobóvonal mögött kell lennie.
+          </article>
+          <article>
+            Az eldobott nyilat akkor sem lehet újra eldobni, ha az nem érte a
+            táblát.
+          </article>
+          <article>
+            Az elejtett nyílért a dobóvonalon belülre is be lehet lépni.
+          </article>
+          <article>
+            Aki először éri el a 0 pontot úgy, hogy az utolsó dobás dupla
+            szektort talál, megnyerte a leget.
+          </article>
+        </aside>
       </section>
     </main>
 

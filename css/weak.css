@@ -65,3 +65,7 @@ th, td, details, summary {
 #normal {
     display: none;
 }
+
+aside {
+    margin-bottom: 2vh;
+}
