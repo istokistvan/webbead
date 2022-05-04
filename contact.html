@@ -65,16 +65,17 @@
       <h1 class="text-center">Kapcsolatfelvétel a szerkesztőséggel!</h1>
       <br />
       <form class="container" id="form">
-        <input type="text" placeholder="Név" name="name" size="25" />
+        <input type="text" placeholder="Név" name="name" size="20" maxlength="25"/>
 
         <div class="radContainer">
           <div class="form-check rad">
             <input
               class="form-check-input"
               type="radio"
-              name="man"
-              id="inlineRadio1"
-              value="ferfi"
+              name="sex"
+              id="man"
+              value="man"
+              checked
             />
             <label class="form-check-label" for="man">Férfi</label>
           </div>
@@ -82,16 +83,16 @@
             <input
               class="form-check-input"
               type="radio"
-              name="woman"
-              id="inlineRadio2"
-              value="no"
+              name="sex"
+              id="woman"
+              value="woman"
             />
             <label class="form-check-label" for="woman">Nő</label>
           </div>
         </div>
 
-        <input type="email" placeholder="Email" name="email" />
-        <textarea placeholder="Email szövege"></textarea>
+        <input type="email" placeholder="Email" name="email" size="30" maxlength="40"/>
+        <textarea placeholder="Email szövege" maxlength="1000" aria-setsize="300"></textarea>
         <label>
           <input type="checkbox" name="agree" /> Elfogadom a felhasználási
           feltételeket!
