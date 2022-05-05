@@ -65,8 +65,12 @@
     <main>
       <h1 class="text-center">Kapcsolatfelvétel a szerkesztőséggel!</h1>
       <br />
-      <form class="container" id="form">
-        <input type="text" placeholder="Név" name="name" size="20" maxlength="25"/>
+      <form class="container" id="form" method="post" action="contact.html">
+        <label for="name">Név</label>
+        <input type="text" name="name" size="20" maxlength="25" id="name"/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" size="30" maxlength="40" id="email"/>
 
         <div class="radContainer">
           <div class="form-check rad">
@@ -92,8 +96,9 @@
           </div>
         </div>
 
-        <input type="email" placeholder="Email" name="email" size="30" maxlength="40"/>
-        <textarea placeholder="Email szövege" maxlength="1000" rows="10" cols="100"></textarea>
+        
+        <label for="content">Email szövege</label>
+        <textarea maxlength="1000" rows="10" cols="100" id="content"></textarea>
         <label>
           <input type="checkbox" name="agree" /> Elfogadom a felhasználási
           feltételeket!
