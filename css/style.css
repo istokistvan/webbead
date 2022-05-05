@@ -39,11 +39,11 @@ body {
     background-color: #006400;
 }
 
-.table a:link {
+a:link {
     color: #0d6efd;
 }
 
-.table a:visited {
+a:visited {
     color: gray;
 }
 
@@ -53,9 +53,4 @@ body {
 
 aside {
     margin-bottom: 2vh;
-}
-
-.carousel {
-    height: 768;
-    width: 1024px;
 }
